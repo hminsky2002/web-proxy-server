@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<familyTree>
+  <person id="johann_ambrosius_bach">
+    <name>Johann Ambrosius Bach</name>
+    <born>1645</born>
+    <died>1695</died>
+    <spouses>
+      <spouse ref="maria_elisabeth_lammerhirt"/>
+    </spouses>
+    <children>
+      <child ref="johann_sebastian_bach"/>
+    </children>
+  </person>
+
+  <person id="maria_elisabeth_lammerhirt">
+    <name>Maria Eliabeth Lämmerhirt</name>
+    <born>1644</born>
+    <died>1694</died>
+    <spouses>
+      <spouse ref="johann_ambrosius_bach"/>
+    </spouses>
+    <children>
+      <child ref="johann_sebastian_bach"/>
+    </children>
+  </person>
+
+  <person id="johann_sebastian_bach">
+    <name>Johann Sebastian Bach</name>
+    <born>1685</born>
+    <died>1750</died>
+    <parents>
+      <parent ref="johann_ambrosius_bach"/>
+      <parent ref="maria_elisabeth_lammerhirt"/>
+    </parents>
+    <spouses>
+      <spouse ref="maria_barbara_bach"/>
+      <spouse ref="anna_magdalena_wilcke"/>
+    </spouses>
+    <children>
+      <child ref="catharina_dorothea_bach"/>
+      <child ref="wilhelm_friedmann_bach"/>
+      <child ref="carl_philipp_emanuel_bach"/>
+      <child ref="j_gottfried_bernhard_bach"/>
+      <child ref="gottfried_heinrich_bach"/>
+      <child ref="elisabeth_juliane_freiderica"/>
+      <child ref="johann_christoph_friedrich_bach"/>
+      <child ref="johann_christian_bach"/>
+      <child ref="johanna_carolina_bach"/>
+      <child ref="regina_susanna_bach"/>
+    </children>
+  </person>
+
+  <person id="maria_barbara_bach">
+    <name>Maria Barbara Bach</name>
+    <born>1684</born>
+    <died>1720</died>
+    <spouses>
+      <spouse ref="johann_sebastian_bach"/>
+    </spouses>
+    <children>
+      <child ref="catharina_dorothea_bach"/>
+      <child ref="wilhelm_friedmann_bach"/>
+      <child ref="carl_philipp_emanuel_bach"/>
+      <child ref="j_gottfried_bernhard_bach"/>
+    </children>
+  </person>
+
+  <person id="catharina_dorothea_bach">
+    <name>Catharina Dorothea Bach</name>
+    <born>1708</born>
+    <died>1774</died>
+    <parents>
+      <parent ref="johann_sebastian_bach"/>
+      <parent ref="maria_barbara_bach"/>
+    </parents>
+  </person>
+
+  <person id="wilhelm_friedmann_bach">
+    <name>Wilhelm Friedmann Bach</name>
+    <born>1710</born>
+    <died>1784</died>
+    <parents>
+      <parent ref="johann_sebastian_bach"/>
+      <parent ref="maria_barbara_bach"/>
+    </parents>
+    <spouses>
+      <spouse ref="dorothea_elisabeth_georgi"/>
+    </spouses>
+  </person>
+
+  <person id="dorothea_elisabeth_georgi">
+    <name>Dorothea Elisabeth Georgi</name>
+    <born>1725</born>
+    <died>1791</died>
+    <spouses>
+      <spouse ref="wilhelm_friedmann_bach"/>
+    </spouses>
+  </person>
+
+  <person id="carl_philipp_emanuel_bach">
+    <name>Carl Philipp Emanuel Bach</name>
+    <born>1714</born>
+    <died>1788</died>
+    <parents>
+      <parent ref="johann_sebastian_bach"/>
+      <parent ref="maria_barbara_bach"/>
+    </parents>
+    <spouses>
+      <spouse ref="johanna_maria_dannemann"/>
+    </spouses>
+  </person>
+
+  <person id="johanna_maria_dannemann">
+    <name>Johanna Maria Dannemann</name>
+    <born>1724</born>
+    <died>1795</died>
+    <spouses>
+      <spouse ref="carl_philipp_emanuel_bach"/>
+    </spouses>
+  </person>
+
+  <person id="j_gottfried_bernhard_bach">
+    <name>J. Gottfried Bernhard Bach</name>
+    <born>1715</born>
+    <died>1739</died>
+    <parents>
+      <parent ref="johann_sebastian_bach"/>
+      <parent ref="maria_barbara_bach"/>
+    </parents>
+  </person>
+
+  <person id="anna_magdalena_wilcke">
+    <name>Anna Magdalena Wilcke</name>
+    <born>1701</born>
+    <died>1760</died>
+    <spouses>
+      <spouse ref="johann_sebastian_bach"/>
+    </spouses>
+    <children>
+      <child ref="gottfried_heinrich_bach"/>
+      <child ref="elisabeth_juliane_freiderica"/>
+      <child ref="johann_christoph_friedrich_bach"/>
+      <child ref="johann_christian_bach"/>
+      <child ref="johanna_carolina_bach"/>
+      <child ref="regina_susanna_bach"/>
+    </children>
+  </person>
+
+  <person id="gottfried_heinrich_bach">
+    <name>Gottfried Heinrich Bach</name>
+    <born>1724</born>
+    <died>1763</died>
+    <parents>
+      <parent ref="johann_sebastian_bach"/>
+      <parent ref="anna_magdalena_wilcke"/>
+    </parents>
+  </person>
+
+  <person id="elisabeth_juliane_freiderica">
+    <name>Elisabeth Juliane Freiderica</name>
+    <born>1726</born>
+    <died>1781</died>
+    <parents>
+      <parent ref="johann_sebastian_bach"/>
+      <parent ref="anna_magdalena_wilcke"/>
+    </parents>
+    <spouses>
+      <spouse ref="johann_christoph_altnickol"/>
+    </spouses>
+  </person>
+
+  <person id="johann_christoph_altnickol">
+    <name>Johann Christoph Altnickol</name>
+    <born>1719</born>
+    <died>1759</died>
+    <spouses>
+      <spouse ref="elisabeth_juliane_freiderica"/>
+    </spouses>
+  </person>
+
+  <person id="johann_christoph_friedrich_bach">
+    <name>Johann Christoph Friedrich Bach</name>
+    <born>1732</born>
+    <died>1795</died>
+    <parents>
+      <parent ref="johann_sebastian_bach"/>
+      <parent ref="anna_magdalena_wilcke"/>
+    </parents>
+    <spouses>
+      <spouse ref="lucia_elisabeth_munchhausen"/>
+    </spouses>
+  </person>
+
+  <person id="lucia_elisabeth_munchhausen">
+    <name>Lucia Elisabeth Münchhausen</name>
+    <born>1732</born>
+    <died>1803</died>
+    <spouses>
+      <spouse ref="johann_christoph_friedrich_bach"/>
+    </spouses>
+  </person>
+
+  <person id="johann_christian_bach">
+    <name>Johann Christian Bach</name>
+    <born>1735</born>
+    <died>1782</died>
+    <parents>
+      <parent ref="johann_sebastian_bach"/>
+      <parent ref="anna_magdalena_wilcke"/>
+    </parents>
+    <spouses>
+      <spouse ref="cecilia_grassi"/>
+    </spouses>
+  </person>
+
+  <person id="cecilia_grassi">
+    <name>Cecilia Grassi</name>
+    <born>1746</born>
+    <died>1791</died>
+    <spouses>
+      <spouse ref="johann_christian_bach"/>
+    </spouses>
+  </person>
+
+  <person id="johanna_carolina_bach">
+    <name>Johanna Carolina Bach</name>
+    <born>1737</born>
+    <died>1781</died>
+    <parents>
+      <parent ref="johann_sebastian_bach"/>
+      <parent ref="anna_magdalena_wilcke"/>
+    </parents>
+  </person>
+
+  <person id="regina_susanna_bach">
+    <name>Regina Susanna Bach</name>
+    <born>1742</born>
+    <died>1809</died>
+    <parents>
+      <parent ref="johann_sebastian_bach"/>
+      <parent ref="anna_magdalena_wilcke"/>
+    </parents>
+  </person>
+</familyTree>

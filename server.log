@@ -5,3 +5,104 @@ Accept: */*
 Proxy-Connection: Keep-Alive
 
 
+DEBUG:__main__:Received data from client: GET http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+
+DEBUG:__main__:Received data from client: GET http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+
+DEBUG:__main__:proxy message being sent: GET http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+X-Forwarded-For: ptsv3.com
+
+
+DEBUG:__main__:Received data from client: POST http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+
+DEBUG:__main__:proxy message being sent: POST http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+X-Forwarded-For: ptsv3.com
+
+
+DEBUG:__main__:Received data from client: POST http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+
+DEBUG:__main__:proxy message being sent: POST http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+X-Forwarded-For: ptsv3.com
+
+
+DEBUG:__main__:Received data from client: PUT http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+
+DEBUG:__main__:proxy message being sent: PUT http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+X-Forwarded-For: ptsv3.com
+
+
+DEBUG:__main__:Received data from client: HEAD http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+
+DEBUG:__main__:proxy message being sent: HEAD http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+X-Forwarded-For: ptsv3.com
+
+
+DEBUG:__main__:Reading 50 more bytes
+ERROR:__main__:Timeout reading request body
+DEBUG:__main__:Received data from client: HEAD http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+
+
+DEBUG:__main__:proxy message being sent: HEAD http://ptsv3.com/crumble HTTP/1.1
+Host: ptsv3.com
+User-Agent: curl/8.7.1
+Accept: */*
+Proxy-Connection: Keep-Alive
+X-Forwarded-For: ptsv3.com
+
+
+DEBUG:__main__:Reading 50 more bytes
+ERROR:__main__:Timeout reading request body

@@ -1,0 +1,235 @@
+{
+    "Bachs": {
+        "Johann Ambrosius Bach": {
+            "born": 1645,
+            "died": 1695,
+            "married_to": [
+                "Maria Elisabeth Lämmerhirt"
+            ],
+            "children": [
+                "Johann Sebastian Bach"
+            ],
+            "child_of": null
+        },
+        "Maria Eliabeth Lämmerhirt": {
+            "born": 1644,
+            "died": 1694,
+            "married_to": [
+                "Johann Ambrosius Bach"
+            ],
+            "children": [
+                "Johann Sebastian Bach"
+            ],
+            "child_of": null
+        },
+        "Johann Sebastian Bach": {
+            "born": 1685,
+            "died": 1750,
+            "married_to": [
+                "Maria Barbara Bach",
+                "Anna Magdalena Wilcke"
+            ],
+            "children": [
+                "Catharina Dorothea Bach",
+                "Wilhelm Friedmann Bach",
+                "Carl Philipp Emanuel Bach",
+                "J. Gottfried Bernhard Bach",
+                "Gottfried Heinrich Bach",
+                "Elisabeth Juliane Freiderica",
+                "Johann Christoph Friedrich Bach",
+                "Johann Christian Bach",
+                "Johanna Carolina Bach",
+                "Regina Susanna Bach"
+            ],
+            "child_of": [
+                "Johann Ambrosius Bach",
+                "Maria Eliabeth Lämmerhirt"
+            ]
+        },
+        "Maria Barbara Bach": {
+            "born": 1684,
+            "died": 1720,
+            "married_to": [
+                "Johann Sebastian Bach"
+            ],
+            "children": [
+                "Catharina Dorothea Bach",
+                "Wilhelm Friedmann Bach",
+                "Carl Philipp Emanuel Bach",
+                "J. Gottfried Bernhard Bach"
+            ],
+            "child_of": null
+        },
+        "Catharina Dorothea Bach": {
+            "born": 1708,
+            "died": 1774,
+            "married_to": [],
+            "children": [],
+            "child_of": [
+                "Johann Sebastian Bach",
+                "Maria Barbara Bach"
+            ]
+        },
+        "Wilhelm Friedmann Bach": {
+            "born": 1710,
+            "died": 1784,
+            "married_to": [
+                "Dorothea Elisabeth Georgi"
+            ],
+            "children": [],
+            "child_of": [
+                "Johann Sebastian Bach",
+                "Maria Barbara Bach"
+            ]
+        },
+        "Dorothea Elisabeth Georgi": {
+            "born": 1725,
+            "died": 1791,
+            "married_to": [
+                "Wilhelm Friedmann Bach"
+            ],
+            "children": [],
+            "child_of": null
+        },
+        "Carl Philipp Emanuel Bach": {
+            "born": 1714,
+            "died": 1788,
+            "married_to": [
+                "Johanna Maria Dannemann"
+            ],
+            "children": [],
+            "child_of": [
+                "Johann Sebastian Bach",
+                "Maria Barbara Bach"
+            ]
+        },
+        "Johanna Maria Dannemann": {
+            "born": 1724,
+            "died": 1795,
+            "married_to": [
+                "Carl Philipp Emanuel Bach"
+            ],
+            "children": [],
+            "child_of": null
+        },
+        "J. Gottfried Bernhard Bach": {
+            "born": 1715,
+            "died": 1739,
+            "married_to": [],
+            "children": [],
+            "child_of": [
+                "Johann Sebastian Bach",
+                "Maria Barbara Bach"
+            ]
+        },
+        "Anna Magdalena Wilcke": {
+            "born": 1701,
+            "died": 1760,
+            "married_to": [
+                "Johann Sebastian Bach"
+            ],
+            "children": [
+                "Gottfried Heinrich Bach",
+                "Elisabeth Juliane Freiderica",
+                "Johann Christoph Friedrich Bach",
+                "Johann Christian Bach",
+                "Johanna Carolina Bach",
+                "Regina Susanna Bach"
+            ],
+            "child_of": null
+        },
+        "Gottfried Heinrich Bach": {
+            "born": 1724,
+            "died": 1763,
+            "married_to": [],
+            "children": [],
+            "child_of": [
+                "Johann Sebastian Bach",
+                "Anna Magdalena Wilcke"
+            ]
+        },
+        "Elisabeth Juliane Freiderica": {
+            "born": 1726,
+            "died": 1781,
+            "married_to": [
+                "Johann Christoph Altnickol"
+            ],
+            "children": [],
+            "child_of": [
+                "Johann Sebastian Bach",
+                "Anna Magdalena Wilcke"
+            ]
+        },
+        "Johann Christoph Altnickol": {
+            "born": 1719,
+            "died": 1759,
+            "married_to": [
+                "Elisabeth Juliane Freiderica"
+            ],
+            "children": [],
+            "child_of": null
+        },
+        "Johann Christoph Friedrich Bach": {
+            "born": 1732,
+            "died": 1795,
+            "married_to": [
+                "Lucia Elisabeth Münchhausen"
+            ],
+            "children": [],
+            "child_of": [
+                "Johann Sebastian Bach",
+                "Anna Magdalena Wilcke"
+            ]
+        },
+        "Lucia Elisabeth Münchhausen": {
+            "born": 1732,
+            "died": 1803,
+            "married_to": [
+                "Johann Christoph Friedrich Bach"
+            ],
+            "children": [],
+            "child_of": null
+        },
+        "Johann Christian Bach": {
+            "born": 1735,
+            "died": 1782,
+            "married_to": [
+                "Cecilia Grassi"
+            ],
+            "children": [],
+            "child_of": [
+                "Johann Sebastian Bach",
+                "Anna Magdalena Wilcke"
+            ]
+        },
+        "Cecilia Grassi": {
+            "born": 1746,
+            "died": 1791,
+            "married_to": [
+                "Johann Christian Bach"
+            ],
+            "children": [],
+            "child_of": null
+        },
+        "Johanna Carolina Bach": {
+            "born": 1737,
+            "died": 1781,
+            "married_to": [],
+            "children": [],
+            "child_of": [
+                "Johann Sebastian Bach",
+                "Anna Magdalena Wilcke"
+            ]
+        },
+        "Regina Susanna Bach": {
+            "born": 1742,
+            "died": 1809,
+            "married_to": [],
+            "children": [],
+            "child_of": [
+                "Johann Sebastian Bach",
+                "Anna Magdalena Wilcke"
+            ]
+        }
+    }
+}

@@ -131,7 +131,7 @@ def send_proxy_data(proxy_sock: socket.socket, mask, args):
     
     message = generate_proxy_http_request(http_dict)
     
-    logger.debug('proxy message being sent:', message.decode())
+    logger.debug(f'proxy message being sent: {message.decode()}', )
     
     proxy_sock.sendall(message)
     
