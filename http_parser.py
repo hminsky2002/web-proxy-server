@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 from typing import Optional
+import re 
+from collections.abc import Callable
 
 CRLF = '\r\n'
 
@@ -77,3 +79,45 @@ def generate_proxy_http_request(request: HttpRequest) -> bytes:
     proxy_request = f'{request.request_line}{CRLF}{headers_str}{CRLF}{request.body}'
     
     return proxy_request.encode('utf-8')
+
+
+
+def parse_cache_control(cache_control_value: str) -> Optional[int]:
+    if not cache_control_value:
+        return None
+    
+    match = re.search(r'max-age=(\d+)', cache_control_value, re.IGNORECASE)
+    if match:
+        return int(match.group(1))
+    return None
+
+def parse_cache_control_header(cache_control_value: str) -> Optional[int]:
+    if not cache_control_value:
+        return None
+    
+    match = re.search(r'max-age=(\d+)', cache_control_value, re.IGNORECASE)
+    if match:
+        return int(match.group(1))
+    return None
+
+def parse_content_length_header(content_length_value: str) -> Optional[int]:
+    if not content_length_value:
+        return None
+    return int(content_length_value)
+
+def extract_header_from_response(header:str, response: bytes, parsing_function: Callable) -> Optional[int]:
+    try:
+        response_str = response.decode('utf-8', errors='ignore')
+        lines = response_str.split('\r\n')
+        
+        for line in lines:
+            if line.lower().startswith(header):
+                
+                value = line.split(':', 1)[1].strip()
+                
+                return parsing_function(value)
+            
+    except Exception:
+        pass
+    return None
+
