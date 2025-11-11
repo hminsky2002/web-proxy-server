@@ -4,6 +4,7 @@ from http_parser import *
 from dataclasses import dataclass
 from time import time
 import logging
+import argparse
 
 
 receive_default_size = 8000
@@ -87,7 +88,7 @@ def receive_client(conn: socket.socket, mask, addr):
     cache_key = http_dict.request_line
     
     if cache_key in server_cache:
-        logger.debug('Checking cache key', cache_key)
+        logger.debug(f'Checking cache key {cache_key}')
         cached = server_cache[cache_key]
         age = time() - cached.cached_at
         if age < cached.max_age:
@@ -157,16 +158,28 @@ def receive_proxy_response(proxy_sock: socket.socket, mask, args):
     client_conn.close()
     
 
-sock = socket.socket()
-sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-sock.bind(('localhost', 1234))
-sock.listen(100)
-sock.setblocking(False)
-sel.register(sock, selectors.EVENT_READ, (accept, None))
+def main():
+    parser = argparse.ArgumentParser(description='HTTP Proxy Server')
+    parser.add_argument('port', type=int, nargs='?', default=1234, help='Port number to listen on (default: 1234)')
 
-while True:
-    events = sel.select()
-    for key, mask in events:
-        callback = key.data[0]
-        args = key.data[1]
-        callback(key.fileobj, mask, args)
+    args = parser.parse_args()
+
+    sock = socket.socket()
+    sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    sock.bind(('localhost', args.port))
+    sock.listen(100)
+    sock.setblocking(False)
+    sel.register(sock, selectors.EVENT_READ, (accept, None))
+
+    logger.info(f'Proxy server started on localhost:{args.port}')
+    print(f'Proxy server listening on localhost:{args.port}')
+
+    while True:
+        events = sel.select()
+        for key, mask in events:
+            callback = key.data[0]
+            callback_args = key.data[1]
+            callback(key.fileobj, mask, callback_args)
+
+if __name__ == '__main__':
+    main()
